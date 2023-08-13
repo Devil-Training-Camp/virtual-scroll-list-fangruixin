@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  apps/doc: {}
+
+  packages/virtual-scroll-list: {}
+
+  packages/virtual-scroll-list-react: {}
+
+  packages/virtual-scroll-list-vue: {}
