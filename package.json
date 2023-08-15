@@ -12,6 +12,7 @@
   },
   "packageManager": "pnpm@8.6.2",
   "devDependencies": {
-    "@types/node": "16"
+    "@types/node": "16",
+    "typescript": "^5.0.2"
   }
 }
