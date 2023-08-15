@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint .",
+    "format": "prettier --check ."
   },
   "license": "MIT",
   "engines": {
@@ -13,6 +15,8 @@
   "packageManager": "pnpm@8.6.2",
   "devDependencies": {
     "@types/node": "16",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.1",
     "typescript": "^5.0.2"
   }
 }

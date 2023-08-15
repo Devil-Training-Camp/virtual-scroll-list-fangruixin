@@ -1,0 +1,5 @@
+.*
+pnpm-*
+*.md
+**/package.json
+tsconfig.*
