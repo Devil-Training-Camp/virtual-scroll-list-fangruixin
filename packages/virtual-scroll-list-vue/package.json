@@ -1,8 +1,8 @@
 {
   "name": "virtual-scroll-list-vue",
   "version": "0.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "main": "dist/virtual-scroll-list-vue.cjs",
+  "module": "dist/virtual-scroll-list-vue.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",
