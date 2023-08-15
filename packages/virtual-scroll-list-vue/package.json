@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "main": "dist/virtual-scroll-list-vue.cjs",
   "module": "dist/virtual-scroll-list-vue.mjs",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build"
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

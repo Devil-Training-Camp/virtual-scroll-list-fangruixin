@@ -21,6 +21,14 @@ export default defineConfig({
       name: 'VirtualScrollListVue',
       formats,
       fileName: (format) => outputFileName[format],
-    }
-  }
+    },
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },
+  },
 })
