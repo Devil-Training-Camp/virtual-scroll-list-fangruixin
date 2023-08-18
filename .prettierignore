@@ -1,5 +1,6 @@
 .*
 pnpm-*
 *.md
+# 为啥要 ignore package.json？
 **/package.json
 tsconfig.*
