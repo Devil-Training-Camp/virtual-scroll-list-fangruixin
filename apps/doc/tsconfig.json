@@ -21,5 +21,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  // 这里也是，为什么要 reference 自己？
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -19,7 +19,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
+
+    // rootDir 呢？
   },
+  // 直接 include: ["./src"] 不就好了？
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  // 为啥要 reference 自己？
   "references": [{ "path": "./tsconfig.node.json" }]
 }
