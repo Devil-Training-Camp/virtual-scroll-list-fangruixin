@@ -23,9 +23,6 @@ importers:
       eslint:
         specifier: ^8.47.0
         version: registry.npmmirror.com/eslint@8.47.0
-      prettier:
-        specifier: ^3.0.1
-        version: registry.npmmirror.com/prettier@3.0.1
       typescript:
         specifier: ^5.0.2
         version: registry.npmmirror.com/typescript@5.0.2
@@ -3463,14 +3460,6 @@ packages:
     name: prelude-ls
     version: 1.2.1
     engines: {node: '>= 0.8.0'}
-    dev: true
-
-  registry.npmmirror.com/prettier@3.0.1:
-    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/prettier/-/prettier-3.0.1.tgz}
-    name: prettier
-    version: 3.0.1
-    engines: {node: '>=14'}
-    hasBin: true
     dev: true
 
   registry.npmmirror.com/pretty-format@29.6.2:

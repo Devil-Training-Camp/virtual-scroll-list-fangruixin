@@ -21,7 +21,6 @@
     "@antfu/eslint-config-vue": "^0.40.2",
     "@types/node": "16",
     "eslint": "^8.47.0",
-    "prettier": "^3.0.1",
     "typescript": "^5.0.2",
     "vitest": "^0.34.1"
   }
