@@ -2,6 +2,12 @@
   "name": "virtual-scroll-list-monorepo",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@8.6.2",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.8.0",
+    "pnpm": ">=8.6.2"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "pnpm --recursive run --workspace-concurrency=1 --no-bail lint",
@@ -9,12 +15,6 @@
     "format": "prettier --check .",
     "test": "vitest"
   },
-  "license": "MIT",
-  "engines": {
-    "node": ">=16.8.0",
-    "pnpm": ">=8.6.2"
-  },
-  "packageManager": "pnpm@8.6.2",
   "devDependencies": {
     "@antfu/eslint-config-react": "^0.40.2",
     "@antfu/eslint-config-ts": "^0.40.2",
