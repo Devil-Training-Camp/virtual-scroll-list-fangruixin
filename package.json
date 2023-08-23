@@ -13,7 +13,8 @@
     "lint": "pnpm --recursive run --workspace-concurrency=1 --no-bail lint",
     "lint:fix": "pnpm --recursive run --no-bail lint:fix && eslint . --fix",
     "format": "prettier --check .",
-    "test": "vitest"
+    "test": "vitest",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@antfu/eslint-config-react": "^0.40.2",
@@ -21,7 +22,12 @@
     "@antfu/eslint-config-vue": "^0.40.2",
     "@types/node": "16",
     "eslint": "^8.47.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
     "typescript": "^5.0.2",
     "vitest": "^0.34.1"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
