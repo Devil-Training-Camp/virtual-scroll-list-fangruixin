@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "lint": "eslint .",
+    "lint": "pnpm --recursive run --workspace-concurrency=1 --no-bail lint",
+    "lint:fix": "pnpm --recursive run --no-bail lint:fix && eslint . --fix",
     "format": "prettier --check .",
     "test": "vitest"
   },
@@ -15,6 +16,9 @@
   },
   "packageManager": "pnpm@8.6.2",
   "devDependencies": {
+    "@antfu/eslint-config-react": "^0.40.2",
+    "@antfu/eslint-config-ts": "^0.40.2",
+    "@antfu/eslint-config-vue": "^0.40.2",
     "@types/node": "16",
     "eslint": "^8.47.0",
     "prettier": "^3.0.1",
