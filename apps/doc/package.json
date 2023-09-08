@@ -11,6 +11,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "virtual-scroll-list-vue": "workspace:*",
     "vue": "^3.3.4"
   },
   "devDependencies": {

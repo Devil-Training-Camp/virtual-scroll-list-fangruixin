@@ -38,6 +38,9 @@ importers:
 
   apps/doc:
     dependencies:
+      virtual-scroll-list-vue:
+        specifier: workspace:*
+        version: link:../../packages/virtual-scroll-list-vue
       vue:
         specifier: ^3.3.4
         version: registry.npmmirror.com/vue@3.3.4
