@@ -1,14 +1,17 @@
 {
   "name": "virtual-scroll-list-doc",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "virtual-scroll-list-vue": "workspace:*",
     "vue": "^3.3.4"
   },
   "devDependencies": {
