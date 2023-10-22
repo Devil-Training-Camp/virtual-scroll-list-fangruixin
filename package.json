@@ -22,6 +22,8 @@
     "@antfu/eslint-config-react": "^0.40.2",
     "@antfu/eslint-config-ts": "^0.40.2",
     "@antfu/eslint-config-vue": "^0.40.2",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "@types/node": "16",
     "eslint": "^8.47.0",
     "husky": "^8.0.0",
