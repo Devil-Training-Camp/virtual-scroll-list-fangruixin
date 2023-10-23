@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --project tsconfig.build.json",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "release": "release-it"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

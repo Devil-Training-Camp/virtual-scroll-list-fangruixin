@@ -14,6 +14,7 @@
     "build": "pnpm --filter virtual-scroll-list-vue build && pnpm --filter virtual-scroll-list-doc build",
     "lint": "pnpm --recursive run --workspace-concurrency=1 --no-bail lint",
     "lint:fix": "pnpm --recursive run --no-bail lint:fix && eslint . --fix",
+    "release": "pnpm --filter virtual-scroll-list-vue release && release-it",
     "test": "vitest",
     "prepare": "husky install"
   },
@@ -23,10 +24,12 @@
     "@antfu/eslint-config-vue": "^0.40.2",
     "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^18.0.0",
+    "@release-it/bumper": "^5.1.0",
     "@types/node": "16",
     "eslint": "^8.47.0",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
+    "release-it": "^16.2.1",
     "typescript": "^5.0.2",
     "vitest": "^0.34.1"
   }
