@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "outDir": "dist/types",
+    "rootDir": "src",
+    "noEmitOnError": false
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
